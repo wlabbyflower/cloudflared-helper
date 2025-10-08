@@ -157,9 +157,9 @@ curl -I host.lzcapp:5244
 
 <img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/20250313164606608.png?imageSlim" alt="image-20250313164606533" style="zoom: 33%;" /> 
 
-- 点击”公共主机名“——> 添加公共主机名
+- 点击”已发布应用程序路由“——> 添加已发布应用程序路由
 
-<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/20250313164825784.png?imageSlim" alt="image-20250313164825686" style="zoom: 33%;" /> 
+<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/image-20251008123125863.png?imageSlim" alt="image-20251008123125863" style="zoom: 25%;" /> 
 
 #### 2、公共主机名配置
 
