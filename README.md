@@ -1,14 +1,27 @@
-CloudFlare 配置指南和端口转发技巧
-[cloudflared-helper](https://github.com/wlabbyflower/cloudflared-helper/blob/main/cloudflared-helper.md)
+# cloudflared-helper
 
-如果遇到隧道降级
+Cloudflare 配置与端口转发文档仓库（懒猫微服场景）。
 
-![d0a9869a26cb4696a424e6f9cfe26493](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/d0a9869a26cb4696a424e6f9cfe26493.png?imageSlim)
+## 文档导航
 
-这个需要在客户端修改CloudFlare的环境变量，修改完成，重启CloudFlare应用即可
+### 中文文档
+- [Cloudflare 配置指南和端口转发技巧](docs/guides/zh/cloudflared-helper.md)
+- [Cloudflare 转发 MySQL / PostgreSQL（TCP）](docs/guides/zh/cloudflare-mysql-postgresql.md)
+- [局域网端口转发教程](docs/guides/zh/lan-port-forwarding.md)
 
-```
+### English
+- [Cloudflare Configuration Guide (EN)](docs/guides/en/cloudflared-helper-en.md)
+
+### 文档索引
+- [docs/README.md](docs/README.md)
+
+## 常见问题：隧道降级
+
+如果遇到隧道降级，可在客户端调整 Cloudflare 应用环境变量并重启：
+
+```bash
 PROTOCOL=auto
 ```
 
-![ae0ae1a7a8f84b48d282c6d96218a70f](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/ae0ae1a7a8f84b48d282c6d96218a70f.png?imageSlim)
+![tunnel-downgrade-1](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/d0a9869a26cb4696a424e6f9cfe26493.png?imageSlim)
+![tunnel-downgrade-2](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/ae0ae1a7a8f84b48d282c6d96218a70f.png?imageSlim)
