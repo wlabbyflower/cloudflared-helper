@@ -1,6 +1,6 @@
-# Docs Index
+# 文档索引
 
-## Repository Layout
+## 目录结构
 
 ```text
 docs/
@@ -9,16 +9,10 @@ docs/
       cloudflared-helper.md
       cloudflare-mysql-postgresql.md
       lan-port-forwarding.md
-    en/
-      cloudflared-helper-en.md
 ```
 
-## Guides
+## 阅读顺序建议
 
-### Chinese
-- [Cloudflare 配置指南和端口转发技巧](guides/zh/cloudflared-helper.md)
-- [Cloudflare 转发 MySQL / PostgreSQL（TCP）](guides/zh/cloudflare-mysql-postgresql.md)
-- [局域网端口转发教程](guides/zh/lan-port-forwarding.md)
-
-### English
-- [Cloudflare Configuration Guide (EN)](guides/en/cloudflared-helper-en.md)
+1. [Cloudflare 配置指南和端口转发技巧（主流程）](guides/zh/cloudflared-helper.md)
+2. [Cloudflare 转发 MySQL / PostgreSQL（TCP 场景）](guides/zh/cloudflare-mysql-postgresql.md)
+3. [局域网端口转发教程（规则详解）](guides/zh/lan-port-forwarding.md)

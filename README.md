@@ -2,18 +2,17 @@
 
 Cloudflare 配置与端口转发文档仓库（懒猫微服场景）。
 
+本仓库仅保留中文文档。
+
 ## 文档导航
 
-### 中文文档
-- [Cloudflare 配置指南和端口转发技巧](docs/guides/zh/cloudflared-helper.md)
-- [Cloudflare 转发 MySQL / PostgreSQL（TCP）](docs/guides/zh/cloudflare-mysql-postgresql.md)
-- [局域网端口转发教程](docs/guides/zh/lan-port-forwarding.md)
+### 核心指南
+- [Cloudflare 配置指南和端口转发技巧（主流程）](docs/guides/zh/cloudflared-helper.md)
+- [Cloudflare 转发 MySQL / PostgreSQL（TCP 场景）](docs/guides/zh/cloudflare-mysql-postgresql.md)
+- [局域网端口转发教程（入口/目标地址说明）](docs/guides/zh/lan-port-forwarding.md)
 
-### English
-- [Cloudflare Configuration Guide (EN)](docs/guides/en/cloudflared-helper-en.md)
-
-### 文档索引
-- [docs/README.md](docs/README.md)
+### 索引与结构
+- [docs 文档索引](docs/README.md)
 
 ## 常见问题：隧道降级
 
