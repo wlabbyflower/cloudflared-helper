@@ -113,7 +113,7 @@ dig NS 域名
 
 下拉端口就可以获取了
 
-![a6aace8f82bbd2374a77235eb09ca5bb](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/202506261623480.png)
+![](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/1128/image-20260325165320435.png?imageSlim)
 
 #### 2、配置转发
 
@@ -132,7 +132,7 @@ dig NS 域名
 添加完成之后点击“测速连接”确保能正常——>创建
 ```
 
-<img src="https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/395/20250313160853937.png?imageSlim" alt="image-20250313160853847" style="zoom: 33%;" /> 
+![image-20260325165423342](https://lzc-playground-1301583638.cos.ap-chengdu.myqcloud.com/guidelines/1128/image-20260325165423342.png?imageSlim) 
 
 #### 3、测试 Cloudflare 应用与转发应用是否正常访问
 
